@@ -1,0 +1,19 @@
+GPU: Tesla T4
+Compute capability: 7.5
+SM count: 40
+
+================================
+Matrix size: 1024 x 1024
+================================
+cuBLAS vs naive PASS (max abs error: 2.14577e-06)
+
+PERFORMANCE RESULTS
+H2D input copies: 2.0191 ms
+Naive CUDA: 4.9132 ms
+cuBLAS:     0.4394 ms
+Naive CUDA: 437.08 GFLOP/s
+cuBLAS:     4887.20 GFLOP/s
+cuBLAS speedup: 11.18x
+Naive CUDA as % of cuBLAS: 8.94%
+
+Final result: PASS
